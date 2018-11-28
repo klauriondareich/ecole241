@@ -1,0 +1,27 @@
+/*fichier css de la lettre de motivation*/
+
+body {width:800px;
+border:2px solid black;
+margin:auto;
+padding:10px;
+height:500px;}
+
+.centre {text-align:center;
+border:2px solid black;
+width:500px;
+margin:auto;}
+
+#date {text-align:right;
+margin-top:40px;}
+
+span {display:block;
+text-align:center;}
+
+.objet {text-align:center;}
+
+p>span {font-weight:bold;
+display:inline;}
+
+div.date+div {margin-top:40px;}
+.info_perso {margin:auto;}
+

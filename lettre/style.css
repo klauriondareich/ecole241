@@ -6,11 +6,13 @@ body {background-color:grey;}
 border:2px solid black;
 width:500px;
 margin-top:30Px;
-margin-left:130px;}
+margin-left:130px;
+margin-right:150px;}
 
-#date {text-align:right;
-margin-top:80px;
-font-size: 20px;}
+.date {
+	text-align:right;
+	margin-top:50px;
+}
 
 span {display:block;
 text-align:center;}
@@ -27,10 +29,19 @@ font-family:arial,sans-serif;}
 .gros_bloc {background-color:white;
 width:800px;
 border:2px solid black;
-margin:auto;
+margin:20px auto;
 padding:10px;
-height:500px;
-height:1000px;}
+height:1000px;
+}
 
+p {
+	line-height:1.5;
+}
+
+.info-perso {
+	margin-top:30px;
+}
+
+.texte {margin:auto;}
 
 

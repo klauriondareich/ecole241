@@ -9,7 +9,7 @@
 /*les bordures*/
 
  .border-yellow {border-color:yellow;}
- .border-2 {border-size:2px;border-style:solid;}
+ .border-2 {border-width:2px;border-style:solid;}
  
  /*les marges intérieures */
 
@@ -152,4 +152,4 @@
  .marg-y-20 {margin-top:20px;margin-bottom:20px;}
  .marg-y-30 {margin-top:30px;margin-bottom:30px;}
  .marg-y-40 {margin-top:40px;margin-bottom:40px;}
- .marg-y-50 {margin-top:50px;margin-bottom:margin
+ .marg-y-50 {margin-top:50px;margin-bottom:50px;}

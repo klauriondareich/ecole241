@@ -1,0 +1,28 @@
+/*la couleur*/
+.color-red {
+	color:red;
+}
+
+.bg-green {
+	background-color:green;
+}
+
+
+/*le texte*/
+
+.txt-right {
+	text-align:right;
+}
+
+/*les bordures*/
+
+ .border-yellow {
+ 	border-color:yellow;
+ }
+ .border-2 {
+ 	border-size:2px;
+ 	border-style:solid;
+ }
+ 
+
+

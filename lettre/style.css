@@ -1,27 +1,36 @@
 /*fichier css de la lettre de motivation*/
 
-body {width:800px;
-border:2px solid black;
-margin:auto;
-padding:10px;
-height:500px;}
+body {background-color:grey;}
 
 .centre {text-align:center;
 border:2px solid black;
 width:500px;
-margin:auto;}
+margin-top:30Px;
+margin-left:130px;}
 
 #date {text-align:right;
-margin-top:40px;}
+margin-top:80px;
+font-size: 20px;}
 
 span {display:block;
 text-align:center;}
 
-.objet {text-align:center;}
+.objet {text-align:left;}
 
 p>span {font-weight:bold;
 display:inline;}
 
-div.date+div {margin-top:40px;}
-.info_perso {margin:auto;}
+.info_perso {margin-top:50px;
+font-size:20px;
+font-family:arial,sans-serif;}
+
+.gros_bloc {background-color:white;
+width:800px;
+border:2px solid black;
+margin:auto;
+padding:10px;
+height:500px;
+height:1000px;}
+
+
 

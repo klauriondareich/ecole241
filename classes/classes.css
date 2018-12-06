@@ -1,6 +1,112 @@
-/*la couleur*/
-.color-red {color:red;}
-.bg-green {background-color:green;}
+/*mini framework  de l'école241 promotion 1 *
+
+Framework Le_Mbongui.css
+********************Auteur : K Laurion Dareich**********/
+
+/*les couleurs*/
+/*variantes de la couleur rouge*/
+.color-red {color:#FF0000;}
+.color-indianred {color:#CD5C5C;}
+.color-lightcoral {color:#F08080;}
+.color-salmon {color:#FA8072;}
+.color-darksalmon {color:#E9967A;}
+.color-lightsalmon {color:#FFA07A;}
+.color-crimson {color:#DC143C;}
+.color-firebrick {color:#B22222;}
+.color-darkred {color:#8B0000;}
+.color-marroon {color:#800000;}
+/*variantes de la couleur rose*/
+.color-pink {color:#FFC0CB;}
+.color-lightpink {color:#FFB6C1;}
+.color-hotpink {color:#FF69B4;}
+.color-deeppink {color:#FF69B4;}
+.color-mediumvioletred {color:#C71585;}
+.color-palevioletred {color:#DB7093;}
+/*variantes de la couleur Orange*/
+.color-lighsalmon {color:#FFA07A;}
+.color-coral {color:#FF7F50;}
+.color-orangered {color:#FF4500;}
+.color-darkorange {color:#FF4500;}
+.color-orange {color:#FFA500;}
+/*variantes de la couleur jaune*/
+.color-yellow {color:#FFFF00;}
+.color-gold {color:#FFD700;}
+.color-lightyellow {color:#FFFFE0;}
+.color-lemonchiffon {color:#FFFACD;}
+.color-lightgoldenrodyellow {color:#FAFAD2;}
+.color-papayawhip {color:#FFEFD5;}
+.color-Moccasin {color:#FFE4B5;}
+.color-peachpuff {color:#FFDAB9;}
+.color-palegoldenrod {color:#EEE8AA;}
+.color-khaki {color:#F0E68C;}
+.color-darkkhaki {color:#BDB76B;}
+/*variantes de la couleur violette*/
+.color-lavender {color:#E6E6FA;}
+.color-thistle {color:#D8BFD8;}
+.color-plum {color:#DDA0DD;}
+.color-violet {color:#EE82EE;}
+.color-orchid {color:#DA70D6;}
+.color-fuchsia {color:#FF00FF;}
+.color-magenta {color:#FF00FF;}
+.color-mediumorchid {color:#BA55D3;}
+.color-mediumpurple {color:#9370DB;}
+.color-blueviolet {color:#8A2BE2;}
+.color-darkviolet {color:#9400D3;}
+.color-darkorchid {color:#9932CC;}
+.color-darkmagenta {color:#8B008B;}
+.color-purple {color:#800080;}
+.color-indigo {color:#4B0082;}
+.color-slateblue {color:#6A5ACD;}
+.color-darkslateblue {color:#483D8B;}
+.color-indigo {color:#4B0082;}
+.color-indigo {color:#4B0082;}
+.color-indigo {color:#4B0082;}
+.color-indigo {color:#4B0082;}
+/*variantes de la couleur verte*/
+.color-green {color:#008000;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.color-blue {color:#008CBA;}
+.color-green {color:#218C56;}
+.color-white {color:#218C56;}
+.color-yellow {color:yellow;}
+.color-grey {color:grey;}
+.color-white {color:#218C56;}
+.color-white {color:#218C56;}
+.color-white {color:#218C56;}
+.color-white {color:#218C56;}
+.color-white {color:#218C56;}
+.color-white {color:#218C56;}
+.color-white {color:#218C56;}
+.color-white {color:#218C56;}
+.bg-green {background-color:#218C56;}
+.bg-blue {background-color:#008CBA;}
+.bg-teal {background-color:teal;}
 
 /*le texte*/
 

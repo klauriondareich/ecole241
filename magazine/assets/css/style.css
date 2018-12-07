@@ -1,7 +1,7 @@
 /*déclaration des polices*/
 @font-face{
 	font-family: "Merriweather";
-	src: url(../fonts/merriweather/Merriweather-Black.ttf);
+	src: url(../fonts/merriweather/Merriweather-Regular.ttf);
 }
 @font-face {
 	font-family: "motion picture personal";
@@ -16,7 +16,7 @@
 /*barres de navigation*/
 
 .block1 {background-color:#00BF9A;}
-.block1 li a{
+.block1 li a {
 	color:white;
 	font-family:'Monserrat',sans-serif;
 	text-decoration:none;
@@ -30,7 +30,7 @@ li {
     padding:10px;
     
 }
-.block2 li a{
+.block2 li a {
 	color:#8A8A8A;
 	font-family:'Monserrat',sans-serif;
 	text-decoration:none;}
@@ -48,7 +48,7 @@ li {
 .p1 { 
 	background-image: url(../img/fond-top.jpg);
 	background-size: cover;
-	height:600px;
+	height:650px;
 	background-repeat:no-repeat;
 }
 .p1 p {
@@ -57,7 +57,7 @@ li {
 	font-size:40px;
 	color:white;
 	padding-left:230px;
-	padding-top:200px;
+	padding-top:250px;
 	color:white;
 	margin:5px;
 }
@@ -85,23 +85,29 @@ li {
 	display:inline-block;
 	background-image: url(../img/vignette.png);
 	width:200px;
-	height:300px;
+	height:150px;
 	background-repeat:no-repeat;
 	float:left;
-	margin:10px;
 	color:white;
-	font-family:'Monserrat',sans-serif;
+	font-family:Merriweather,sans-serif;
+	margin-left:10px;
 }
 .img p {
 	margin:80px 5px 5px 5px;
 	padding:2px;
+	font-size:12px;
+	font-weight:bold;
 }
 .mini-block1 {
 	position:absolute;
-    top:400px;
+    top:450px;
     left:230px;
 }
-span.date {font-size:10px;font-weight:bold;}
+span.date {
+	font-size:10px;
+	font-weight:bold;
+	display:block;
+}
 div.img {box-sizing: border-box;}
 .p1 {
 	border:2px solid white;

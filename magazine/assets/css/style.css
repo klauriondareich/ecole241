@@ -14,7 +14,12 @@
 
 /*en tête de la page*/
 /*barres de navigation*/
-.block1 {background-color:#00BF9A;}
+.big-block {
+	margin:5px auto;
+    width:1000px;
+}
+.block1 {background-color:#00BF9A;
+width:1000px;}
 .block1 li a{
 	color:white;
 	font-family:'Monserrat',sans-serif;
@@ -44,73 +49,66 @@ li {
 /*image de fond et les mini-blocs*/
 .block1 ul {margin-left:200px;}
 .block2 ul {margin-left:200px;}
-
-.p1 {
-	
-	width:800px;
-	font-family:merriweather, serif;
-	position:relative;
-	bottom:600Px;
-	left:300Px;
-    
+.p1 { 
+	background-image: url(../img/fond-top.jpg);
+    width:1000px;
+	height:500px;
+	background-repeat:no-repeat;
 }
 .p1 p {
-	color:white;
+	font-family:merriweather, serif;
 	font-size:30px;
+	color:white;
+	margin-left:160px;
+	padding-left:80px;
+	color:white;
+	margin:5px;
 }
-img {z-index:1;}
+.p1 a {
+	text-decoration:none;
+	color:white;
+	font-size:20px;
+}
 .bouton {
 	font-family:montserrat, sans-serif;
 	font-size:20px;
 	color:white;
 	border:2px solid #00BF9A;
 	background-color:#00BF9A;
-	width:100px;
+	width:90px;
 	border-radius:10px;
-	margin:10px;
+	text-align:center;
+	margin:20px 0 10px 90px;
 	padding:5px;
-}	
-.date {font-size:10px;}
+}
+
+.block3 {
+	border:2px solid white;
+    position:relative;
+    top:0;
+    left:0;
+}
+
 .img {
-	background-image:url(../img/vignette.png);
-	background-repeat:no-repeat;
-	width:300px;
+	display:inline-block;
+	background-image: url(../img/vignette.png);
+	width:200px;
 	height:300px;
-	float:right;
-}
-.header {
-	top:0;
-	left:0;
-}
-.position {
-	position:absolute;
-	top:700px;
-	left:50px;
-	 
-}
-.position1 {
-	position:absolute;
-	top:700px;
-	left:350px;
-	 
-}
-.position2 {
-	position:absolute;
-	top:700px;
-	left:650px;
-	 
-}
-.position3 {
-	position:absolute;
-	top:700px;
-	right:5px;
-	 
+	background-repeat:no-repeat;
+	float:left;
+	margin:10px;
+	color:white;
+	font-family:'Monserrat',sans-serif;
 }
 .img p {
-	color:white;
-	font-family:merryweather,serif;
+	margin:80px 5px 5px 5px;
+	padding:2px;
 }
-.btn{
-	color:white;
-	text-decoration:none;
+.mini-block1 {
+	position:absolute;
+    top:250px;
+    left:50px;
 }
+span.date {font-size:10px;font-weight:bold;}
+div.img {box-sizing: border-box;}
+.p1 {border:2px solid white;}

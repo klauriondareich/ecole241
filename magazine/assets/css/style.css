@@ -1,7 +1,7 @@
 /*déclaration des polices*/
 @font-face{
 	font-family: "Merriweather";
-	src: url(../fonts/merriweather/Merriweather-Bold.ttf);
+	src: url(../fonts/merriweather/Merriweather-Black.ttf);
 }
 @font-face {
 	font-family: "motion picture personal";
@@ -14,12 +14,8 @@
 
 /*en tête de la page*/
 /*barres de navigation*/
-.big-block {
-	margin:5px auto;
-    width:1000px;
-}
-.block1 {background-color:#00BF9A;
-width:1000px;}
+
+.block1 {background-color:#00BF9A;}
 .block1 li a{
 	color:white;
 	font-family:'Monserrat',sans-serif;
@@ -51,37 +47,33 @@ li {
 .block2 ul {margin-left:200px;}
 .p1 { 
 	background-image: url(../img/fond-top.jpg);
-    width:1000px;
-	height:500px;
+	background-size: cover;
+	height:600px;
 	background-repeat:no-repeat;
 }
 .p1 p {
 	font-family:merriweather, serif;
-	font-size:30px;
+	font-weight:bold;
+	font-size:40px;
 	color:white;
-	margin-left:160px;
-	padding-left:80px;
+	padding-left:230px;
+	padding-top:200px;
 	color:white;
 	margin:5px;
 }
 .p1 a {
 	text-decoration:none;
 	color:white;
-	font-size:20px;
-}
-.bouton {
+	font-size:8px;
+	display:block;
 	font-family:montserrat, sans-serif;
-	font-size:20px;
-	color:white;
-	border:2px solid #00BF9A;
-	background-color:#00BF9A;
-	width:90px;
-	border-radius:10px;
+	padding:3px 5px;
 	text-align:center;
-	margin:20px 0 10px 90px;
-	padding:5px;
+	border:2px solid #00BF9A;
+	border-radius:10px;
+	background-color:#00BF9A;
+	width:50px;
 }
-
 .block3 {
 	border:2px solid white;
     position:relative;
@@ -106,9 +98,14 @@ li {
 }
 .mini-block1 {
 	position:absolute;
-    top:250px;
-    left:50px;
+    top:400px;
+    left:230px;
 }
 span.date {font-size:10px;font-weight:bold;}
 div.img {box-sizing: border-box;}
-.p1 {border:2px solid white;}
+.p1 {
+	border:2px solid white;
+	box-sizing:border-box;
+}
+/*Ligne horizontale*/
+hr {width: 840px;}

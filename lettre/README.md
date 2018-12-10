@@ -1,5 +1,6 @@
 # lettre 
 **Au commencement était le code**
-	p
-		{
-		color:red;}
+le code :`
+          p{
+           color:red;
+             }`

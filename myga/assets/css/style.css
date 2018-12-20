@@ -8,11 +8,6 @@
 
 /*Barre de navigation*/
 
-/*body {
-	margin: 0;
-	padding: 0;
-}*/
-
 div.navbar {
 	background-color: #00A14C;
 	box-shadow: -5px 5px 15px #000;
@@ -133,3 +128,16 @@ a img {
 	padding-left:10px;
 }
 
+/*Couleurs de fond*/
+
+.bg-vert {background-color: #00A14C;}
+.bg-jaune {background-color: #EDDE45;}
+.bg-bleu {background-color: #008CBA;}
+.bg-b {background-color: #19DD89;}
+
+.info-sup div {
+	width: 500px;
+	height: 100px;
+	border: 2px solid black;
+	color: white;
+}

@@ -88,6 +88,7 @@ h1 {padding-top: 30px;}
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 50px;
+	box-shadow: -5px 5px 15px #000;
 	/*border: 2px solid;*/
 	background-color: #D9E8D7;
 	
@@ -141,9 +142,64 @@ a img {
 .bg-bleu {background-color: #008CBA;}
 .bg-b {background-color: #19DD89;}
 
+/*Informations supplémentaires*/
+
+.info-sup {
+	margin-top: 70px;
+	margin-left: 30px;
+}
 .info-sup div {
 	width: 500px;
-	height: 100px;
-	border: 2px solid black;
+	height: 30px;
+	box-shadow: -5px 5px 15px #000;
+	/*border: 2px solid black;*/
+	border-radius: 25px;
 	color: white;
+	padding: 10px;
+	text-align: center;
+	font-size: 20px;
+}
+.info-sup-b2 {
+	position: relative;
+	left: 400px;
+	bottom: 50px;
+	margin-left: 150px;
+
+}
+.info-sup-b3 {
+	position: relative;
+	bottom: 50px;
+	margin-top: 40px;
+}
+.info-sup-b4 {
+	position: relative;
+	left: 400px;
+	bottom: 100px;
+	margin-left: 150px;
+	margin-top: 2px;
+}
+.info-sup div:nth-child(1):hover {
+	color: #00A14C;
+	border: 3px solid #00A14C;
+	background-color: white;
+	font-weight: bold;
+	
+}.info-sup div:nth-child(2):hover {
+	color: #008CBA;
+	border: 3px solid #008CBA;
+	background-color: white;
+	font-weight: bold;
+	
+}.info-sup div:nth-child(3):hover {
+	color: #EDDE45;
+	border: 3px solid #EDDE45;
+	background-color: white;
+	font-weight: bold;
+	
+}.info-sup div:nth-child(4):hover {
+	color: #19DD89;
+	border: 3px solid #19DD89;
+	background-color: white;
+	font-weight: bold;
+	
 }

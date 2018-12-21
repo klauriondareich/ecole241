@@ -6,6 +6,12 @@
 	src: url(../fonts/Montserrat-Regular.ttf);
 }
 
+body{
+	
+	margin: 0;
+	padding: 0;
+
+}
 /*Barre de navigation*/
 
 div.navbar {
@@ -80,7 +86,7 @@ h1 {padding-top: 30px;}
 /*Formulaire*/
 
 .form {
-	width: 80%;
+	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 50px;
@@ -107,7 +113,7 @@ div input {
 }
 label{
 	font-size: 25px;
-	font-family: arial;
+	font-family: arial, sans-serif;
 	color: ;
 }
 button {
@@ -179,22 +185,41 @@ a img {
 	background-color: white;
 	font-weight: bold;
 	
-}.info-sup div:nth-child(2):hover {
+}
+.info-sup div:nth-child(2):hover {
 	color: #008CBA;
 	border: 3px solid #008CBA;
 	background-color: white;
 	font-weight: bold;
 	
-}.info-sup div:nth-child(3):hover {
+}
+.info-sup div:nth-child(3):hover {
 	color: #EDDE45;
 	border: 3px solid #EDDE45;
 	background-color: white;
 	font-weight: bold;
 	
-}.info-sup div:nth-child(4):hover {
+}
+.info-sup div:nth-child(4):hover {
 	color: #19DD89;
 	border: 3px solid #19DD89;
 	background-color: white;
 	font-weight: bold;
 	
 }
+.info-sup a {
+	display: block;
+	text-decoration: none;
+}
+
+/*Le pied de page*/
+
+.f-footer {
+	background-color: #626266;
+	height: 50px;
+}
+.s-footer {
+	background-color: #1A2B2B;
+	height: 200px;
+}
+

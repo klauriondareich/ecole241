@@ -239,10 +239,6 @@ span {
 	height: 300px;
 	font-family: chivo;
 }
-.s-footer {
-	background-color: #626266;
-	height: 50px;
-}
 p{color: white;}
 p:nth-child(1) {
 	width: 100px;
@@ -280,8 +276,9 @@ p:nth-child(3) {
 	width: 400px;
 	/*border: 2px solid;*/
 }
-.ico-footer img {
-	margin: 10px;
+.ico-footer a img {
+	margin: 5px;
+	color: white;
 }
 .txt-ico-footer {
 	/*border: 2px solid;*/

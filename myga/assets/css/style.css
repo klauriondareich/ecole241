@@ -242,27 +242,27 @@ span {
 p{color: white;}
 p:nth-child(1) {
 	width: 100px;
-	padding-top: 1px;
 	padding-left: 40px;
 	position: relative;
+	padding-top: 3px;
 	left: 200px;
-	top: 30px;
+	top: 55px;
 }
 p:nth-child(2) {
 	position: relative;
-	bottom: 90px;
+	bottom: 65px;
 	left: 350px;
 	width: 200px;
 	padding-left: 60px;
-	padding-top: 10px;
+	padding-top: 15px;
 }
 p:nth-child(3) {
 	position: relative;
 	left: 600px;
-	bottom: 240px;
+	bottom: 225px;
 	width: 200px;
 	padding-left: 70px;
-	padding-top: 15px;
+	padding-top: 20px;
 }
 .l-space {line-height: 30px;}
 
@@ -272,7 +272,7 @@ p:nth-child(3) {
 	position: relative;
 	left: 800px;
 	margin-left: 50px;
-	bottom: 375px;
+	bottom: 360px;
 	width: 400px;
 	/*border: 2px solid;*/
 }

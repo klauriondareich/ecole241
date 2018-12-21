@@ -140,12 +140,16 @@ a img {
 /*Couleurs de fond*/
 
 .bg-vert {background-color: #00A14C;}
-.bg-jaune {background-color: #EDDE45;}
 .bg-bleu {background-color: #008CBA;}
-.bg-b {background-color: #19DD89;}
+.bg-jaune {background-color: #EDDE45;}
+.bg-v {background-color: #19DD89;}
 
 /*Informations supplémentaires*/
 
+.border-vert {border: 2px solid #00A14C;}
+.border-bleu {border: 2px solid #008CBA;}
+.border-jaune {border: 2px solid #EDDE45;}
+.border-v {border: 2px solid #19DD89;}
 .info-sup {
 	margin-top: 70px;
 	margin-left: 120px;
@@ -163,7 +167,7 @@ a img {
 .info-sup-b2 {
 	position: relative;
 	left: 400px;
-	bottom: 50px;
+	bottom: 52px;
 	margin-left: 150px;
 
 }
@@ -175,34 +179,34 @@ a img {
 .info-sup-b4 {
 	position: relative;
 	left: 400px;
-	bottom: 100px;
+	bottom: 115px;
 	margin-left: 150px;
-	margin-top: 2px;
+	margin-top: 10px;
 }
 .info-sup div:nth-child(1):hover {
 	color: #00A14C;
-	border: 3px solid #00A14C;
+	border: 2px solid #00A14C;
 	background-color: white;
 	font-weight: bold;
+
 	
 }
 .info-sup div:nth-child(2):hover {
 	color: #008CBA;
-	border: 3px solid #008CBA;
+	border: 2px solid #008CBA;
 	background-color: white;
-	font-weight: bold;
-	
+	font-weight: bold;	
 }
 .info-sup div:nth-child(3):hover {
 	color: #EDDE45;
-	border: 3px solid #EDDE45;
+	border: 2px solid #EDDE45;
 	background-color: white;
 	font-weight: bold;
 	
 }
 .info-sup div:nth-child(4):hover {
 	color: #19DD89;
-	border: 3px solid #19DD89;
+	border: 2px solid #19DD89;
 	background-color: white;
 	font-weight: bold;
 	
@@ -215,11 +219,43 @@ a img {
 /*Le pied de page*/
 
 .f-footer {
-	background-color: #626266;
-	height: 50px;
+	background-color: #1A2B2B;
+	height: 300px;
 }
 .s-footer {
-	background-color: #1A2B2B;
-	height: 200px;
+	background-color: #626266;
+	height: 50px;
+	box-sizing: border-box;
 }
+p{color: white;}
+
+p:nth-child(1){
+	width: 100px;
+	/*border: 2px solid white;*/
+	padding-top: 1px;
+	padding-left: 10px;
+	position: relative;
+	left: 300px;
+	top: 30px;
+	
+}
+p:nth-child(2){
+	position: relative;
+	bottom: 90px;
+	left: 400px;
+	width: 200px;
+	/*border: 2px solid white;*/
+	padding-left: 20px;
+	padding-top: 10px;
+}
+p:nth-child(3){
+	position: relative;
+	left: 600px;
+	bottom: 240px;
+	width: 200px;
+	/*border: 2px solid white;*/
+	padding-left: 30px;
+	padding-top: 15px;
+}
+.l-space {line-height: 30px;}
 

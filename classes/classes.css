@@ -1,9 +1,5 @@
-/*mini framework  de l'école241 promotion 1 *
-
-Framework Le_Mbongui.css
-********************Auteur : K Laurion Dareich**********/
-
 /*les couleurs*/
+
 /*variantes de la couleur rouge*/
 .color-red {color:#FF0000;}
 .color-indianred {color:#CD5C5C;}
@@ -64,46 +60,9 @@ Framework Le_Mbongui.css
 .color-indigo {color:#4B0082;}
 /*variantes de la couleur verte*/
 .color-green {color:#008000;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.color-blue {color:#008CBA;}
-.color-green {color:#218C56;}
-.color-white {color:#218C56;}
-.color-yellow {color:yellow;}
+/*autrez couleurs*/
+.color-white {color:#fff;}
 .color-grey {color:grey;}
-.color-white {color:#218C56;}
-.color-white {color:#218C56;}
-.color-white {color:#218C56;}
-.color-white {color:#218C56;}
-.color-white {color:#218C56;}
-.color-white {color:#218C56;}
-.color-white {color:#218C56;}
-.color-white {color:#218C56;}
 .bg-green {background-color:#218C56;}
 .bg-blue {background-color:#008CBA;}
 .bg-teal {background-color:teal;}

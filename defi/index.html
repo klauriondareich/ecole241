@@ -11,11 +11,11 @@
 
 		<!-- header -->
 
-		<div>
+		<header>
 
-			<!-- navigation bar -->
+			<!-- first navigation bar -->
 
-			<div>
+			<nav>
 				<ul>
 					<li> 
 						<a href="#"><img src="" alt="logo"></a>
@@ -28,8 +28,11 @@
 						<img src="assets/img/icones/triangle.svg" alt="mini triangle" width="10" height="10">
 					</li>
 				</ul>
-			</div>
-			<div>
+			</nav>
+
+			<!-- second navigation bar -->
+
+			<nav>
 				<ul>
 					<li>book</li>
 					<li>manage</li>
@@ -41,78 +44,73 @@
 				<form action="#" method="get">
 						<input type="search" name="recherche" placeholder="Search">
 				</form>
+			</nav>
+		</header>
+
+			
+
+		<section class="img-fond">
+			<div>
+				<h1>Welcome to your new destination for both Virgin America and Alaska Airlines travel.</h1>
+				<a href="#">explore what's next</a>
 			</div>
+			<ul>
+				<li>book</li>
+				<li>check in</li>
+				<li>flight status</li>
+				<li>manage trip</li>
+			</ul>
+			<ul>
+				<li>flights</li>
+				<li>hotels</li>
+				<li>cars</li>
+				<li>packages</li>
+			</ul>
 
-			<!-- banner -->
+			<!-- form-->
+			<form action="#" method="post">
+				<input type="checkbox" name="choice" value="one-way" id="one-way">
+				<label for="one-way">One-way</label> 
+				<input type="checkbox" name="choice" value="use-miles" id="use-miles">
+				<label for="use-miles"> Use miles </label><br>
+				<label for="dprt">From</label> 
+				<input type="text" name="depart" id="dprt">
+				<label for="arv">To</label>
+				<input type="text" name="arrivée" id="arv">
+				<label for="dprt-date">Departure date</label>
+				<input type="date" name="date-depart" id="dprt-date">
+				<label for="arv-date">Return date</label>
+				<input type="date" name="date-arrivée" id="arv-date">
 
-			<div class="banner">
+				<!-- Dropdown list -->
 
-				<!-- form-->
-
-				<div>
-					<ul>
-						<li>book</li>
-						<li>check in</li>
-						<li>flight status</li>
-						<li>manage trip</li>
-					</ul>
-					<ul>
-						<li>flights</li>
-						<li>hotels</li>
-						<li>cars</li>
-						<li>packages</li>
-					</ul>
-					<form action="#" method="post">
-						<input type="checkbox" name="choice" value="one-way" id="one-way">
-						<label for="one-way">One-way</label> 
-						<input type="checkbox" name="choice" value="use-miles" id="use-miles">
-						<label for="use-miles"> Use miles </label><br>
-						<label for="dprt">From</label> 
-						<input type="text" name="depart" id="dprt">
-
-						<label for="arv">To</label>
-						<input type="text" name="arrivée" id="arv">
-						<label for="dprt-date">Departure date</label>
-						<input type="date" name="date-depart" id="dprt-date">
-						<label for="arv-date">Return date</label>
-						<input type="date" name="date-arrivée" id="arv-date">
-
-						<!-- Dropdown list -->
-
-						<label for="adult">Adults</label>
-						<select name="adulte-number" id="adult">
-						 	<option value="1 adult">1 adult</option>
-						 	<option value="2 adults">2 adults</option>
-						 	<option value="3 adults">3 adults</option>
-						 	<option value="4 adults">4 adults</option>
-						 	<option value="5 adults">5 adults</option>
-						 	<option value="6 adults">6 adults</option>
-						 	<option value="7 adults">7 adults</option>
-						 	<option value="8 adults">8 adults</option>
-						</select>
-						<label for="children">Children</label>
-						<select name="children-number" id="children">
-						 	<option value="0 children">0 children</option>
-						 	<option value="0 Ages 2-17">0 Ages 2-17</option>
-						 	<option value="0 Under 2 (on lap)">0 Under 2 (on lap)</option>
-						</select>
-						<input type="submit" name="rps" value="FIND FLIGHTS">
-					</form>
-					<a href="#">All search options <br>Use discount or <br>companion fare code</a>
-				</div>
-				<div>
-					<h1>Welcome to your new destination for both Virgin America and Alaska Airlines travel.</h1>
-					<a href="#">explore what's next</a>
-				</div>
-			</div>
-		</div>
+				<label for="adult">Adults</label>
+				<select name="adulte-number" id="adult">
+				 	<option value="1 adult">1 adult</option>
+				 	<option value="2 adults">2 adults</option>
+				 	<option value="3 adults">3 adults</option>
+				 	<option value="4 adults">4 adults</option>
+				 	<option value="5 adults">5 adults</option>
+				 	<option value="6 adults">6 adults</option>
+				 	<option value="7 adults">7 adults</option>
+				 	<option value="8 adults">8 adults</option>
+				</select>
+				<label for="children">Children</label>
+				<select name="children-number" id="children">
+				 	<option value="0 children">0 children</option>
+				 	<option value="0 Ages 2-17">0 Ages 2-17</option>
+				 	<option value="0 Under 2 (on lap)">0 Under 2 (on lap)</option>
+				</select>
+				<input type="submit" name="rps" value="FIND FLIGHTS">
+			</form>
+			<a href="#">All search options <br>Use discount or <br>companion fare code</a>
+		</section>
+		
 
 		<!-- the body -->
 
-		<div>
-			
-			<!-- first block -->
-			
+		<!-- first block -->
+		<section>
 			<small><a href="#">Accessible services</a></small>
 			<small><a href="#">Baggage & optional fees - Updated</a></small>
 			<div> 
@@ -139,22 +137,24 @@
 					<a href="#">See the routes</a>
 				</div>
 			</div>
-		</div>
+		</section>
 		
 		<!-- second block -->
-
-		<div>
-			<img src="assets/img/" alt="visa card" width="293" height="180">
+		<section>
 			<div>
-				<h2><a href="#">30,000 bonus mile offer.</a></h2>
-				<p>+ Free checked bag for you and up to 6 guests on your reservation <br>+ 3x miles on Alaska purchases <br>+ Alaska's Famous Companion Fare™</p>
-				<a href="#">APPLY NOW</a>
+				<img src="assets/img/" alt="visa card" width="293" height="180">
+				<div>
+					<h2><a href="#">30,000 bonus mile offer.</a></h2>
+					<p>+ Free checked bag for you and up to 6 guests on your reservation <br>+ 3x miles on Alaska purchases <br>+ Alaska's Famous Companion Fare™</p>
+					<a href="#">APPLY NOW</a>
+				</div>
 			</div>
-		</div>
+		</section>
+		
 
 		<!-- third block -->
 
-		<div> 
+		<section> 
 			<h2>More to explore</h2>
 			<div>
 				<img src="assets/img/reader.jpg" alt="" width="293" height="180">
@@ -180,11 +180,11 @@
 					<a href="#">Learn how it works</a>
 				</div>
 			</div>
-		</div>
+		</section>
 
 		<!-- block before the footer of the page-->
 
-		<div>
+		<section>
 			<div>
 				<img src="assets/img/icones/mail.svg" alt="envelop mail icon" width="64" height="64">
 				<div>
@@ -209,11 +209,11 @@
 					<a href="#">Credit card <br>This indicates a link to an external site that may not follow the same accessibility policies.30,000 bonus mile offer <br>Apply now </a>
 				</div>
 			</div>
-		</div>
+		</section>
 
 		<!-- Footer -->
 
-		<div>
+		<footer>
 			<div>
 				<span>About Alaska</span>
 				<a href="#">Who we are</a>
@@ -259,7 +259,7 @@
 				<a href="#">AdChoices</a> <br>
 				<span>RD00155DADF87B</span>
 			</div>
-		</div>
+		</footer>
 	</body>
 </html>
 

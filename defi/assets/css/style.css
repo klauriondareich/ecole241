@@ -1,0 +1,26 @@
+/*les polices */
+@font-face {
+	font-family: 'Helvetica Neue';
+	src: url(../fonts/helvetica/HelveticaNeue-MediumExt.woff);
+	src: url(../fonts/helvetica/HelveticaNeue.ttf);
+}
+
+/***************************
+    L'entête de la page
+****************************/
+
+/***************************
+    Le corps de la page
+****************************/
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Helvetica Neue';
+	/*background-color: blue;*/
+}
+
+
+	
+/***************************
+    Le pied de page
+****************************/

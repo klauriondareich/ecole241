@@ -143,11 +143,11 @@ body {
 	}
 }
 
-.container {
+/*.container {
 	border: 1px solid red;
 	width: 85%;
 	margin: auto;
-}
+}*/
 
 /*
 .scrolling-wrapper {
@@ -167,10 +167,24 @@ body {
     display: none;
   }*/
 
-/*****************
+
+/*****************		
+ Sections
+ *****************/
+ .container {
+ 	overflow-x: scroll;
+ 	overflow-y: hidden;
+	white-space: nowrap;
+ }
+/*****************		
  Première section
  *****************/
-.first-sec {
+.great-sect {
+	border: 1px solid green;
+	display: inline-block;
+	
+}
+.sub-section {
 	border: 1Px solid;
 	width: 800px;
 	margin: 50px 230px;
@@ -180,27 +194,32 @@ body {
 	border-radius: 5px;
 	box-shadow: 6px 7px 15px #000;
 }
-.first-sec ul li{
+.sub-section ul li{
 	display: inline-block;
 	padding: 10px;
-	border: 1px solid;
+	/*border: 1px solid;*/
 }
-.first-sec ul li:nth-child(1) {
+.sub-section ul li:nth-child(1) {
 	margin-left: 0px;
 	
 }
-.first-sec ul li:nth-child(2) {
+.sub-section ul li:nth-child(2) {
 	margin-left: 55px;
 	
 }
-.first-sec ul li:nth-child(3) {
+.sub-section ul li:nth-child(3) {
 	margin-left: 65px;
 	
 }
-.first-sec ul li:nth-child(6) {
-	margin-left: 80px;
+.sub-section ul li:nth-child(4) {
+	margin-left: 85px;
 	
 }
+.sub-section ul li:nth-child(5) {
+	margin-left: 98px;
+	
+}
+
 /*****************
  Les formes
  *****************/
@@ -211,8 +230,9 @@ body {
  	border-radius: 35px;
  	width: 20px;
  	height: 20px;
- 	background-color: white;}
- 	.forme:hover {cursor:pointer;}
+ 	background-color: white;
+ 	}
+ .forme:hover {cursor:pointer;}
  .fo {
  	width: 200px;
  	height: 5px;
@@ -229,13 +249,13 @@ body {
  	border: 5px solid #00A14C;
  	position: absolute;
  	top: -16px;
- 	left: 180px;
+ 	left: 160px;
  }
  .cercle-j {
  	border: 5px solid #EDDE45;
  	position: absolute;
- 	top: -16px;
- 	left: 370px;
+ 	top: -16px																																																																																																																																																																																																																																			;
+ 	left: 340px;
  }
  .cercle-g {
  	border: 5px solid #19DD89;
@@ -247,7 +267,7 @@ body {
  	border: 5px solid #1A2B2B;
  	position: absolute;
  	top: -17px;
- 	left: 560px;
+ 	left: 530px;
  }
  .cercle-t {
  	border: 5px solid teal;

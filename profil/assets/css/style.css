@@ -1,0 +1,298 @@
+/***************
+les polices
+****************/
+@font-face {
+	font-family: 'Kosugi Maru';
+	src: url(../fonts/.ttf);
+}
+@font-face {
+	font-family: 'NTR';
+	src: url(../fonts/.ttf);
+}
+
+/***********************
+  en tête de la page
+***********************/
+header{
+	position: relative;
+	top: 0;
+	left: 0;
+}
+li {
+	list-style-type: none;
+}
+.bg-img {
+	background-image: url(../img/f3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	position: relative;
+	top: 0;
+	left: 0;
+	height: 200px;
+}
+.bg-img {
+	animation-name: defilement;
+	animation-duration: 20s;
+	animation-delay: 2s;
+	animation-timing-function: ;
+	animation-iteration-count: infinite;
+	animation-direction: reverse;	
+}
+@-webkit-keyframes defilement {
+	0%{
+		background-image: url(../img/f3.jpg);
+		background-size: cover;
+	}
+	50%{
+		background-image: url(../img/f2.jpg);
+		background-size: cover;
+	}
+	100%{
+		background-image: url(../img/f4.jpg);
+		background-size: cover;
+	}
+}
+
+/*barre de navigation*/
+
+@-webkit-keyframes left {
+  from {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+nav {
+	border: 1Px solid green;
+	width: 200px;
+	height: 400Px;
+	position: absolute;
+	right: 0;
+	top: 100Px;
+	/*display: none;*/
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+.menu>span {
+	width: 30px;
+	height: 2px;
+	background-color: white;
+	display: block;
+	margin-top: 6px;
+	margin-left: 10px;
+}
+.menu:hover {
+	cursor: pointer;
+}
+/*.menu:hover+nav {
+	display: block;
+}*/
+.menu {
+	width: 50px;
+	height: 30px;
+	border: 2px solid white;
+	border-radius: 6px;
+	padding: 2px;
+	position: absolute;
+	top: 12px;
+	right: 20px;
+	z-index: 1;
+	animation-name: left;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+/***************
+corps de la page
+*****************/
+h1,h1+h2 {
+	text-align: center;
+} 
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.intro {
+	animation-duration: 15s;
+	animation-name: texte;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in;
+	animation-direction: alternate;
+	position: absolute;
+	top: 50px;
+	right: 400px;
+}
+@-webkit-keyframes texte {
+	from {
+		margin: auto;
+		width: 0%;
+		font-size: 50%;
+	}
+	to {
+		margin: auto;
+		width: 50%;
+		font-size: 150%;
+	}
+}
+
+.container {
+	border: 1px solid red;
+	width: 85%;
+	margin: auto;
+}
+
+/*
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;}
+
+*/
+  /*.card {
+    display: inline-block;
+  }
+.scrolling-wrapper {
+  -webkit-overflow-scrolling: touch;
+}*/
+/*.scrolling-wrapper::-webkit-scrollbar 
+ {
+    display: none;
+  }*/
+
+/*****************
+ Première section
+ *****************/
+.first-sec {
+	border: 1Px solid;
+	width: 800px;
+	margin: 50px 230px;
+	color: white;
+	background-color: #025076;
+	border-bottom: 5px solid #044773;
+	border-radius: 5px;
+	box-shadow: 6px 7px 15px #000;
+}
+.first-sec ul li{
+	display: inline-block;
+	padding: 10px;
+	border: 1px solid;
+}
+.first-sec ul li:nth-child(1) {
+	margin-left: 0px;
+	
+}
+.first-sec ul li:nth-child(2) {
+	margin-left: 55px;
+	
+}
+.first-sec ul li:nth-child(3) {
+	margin-left: 65px;
+	
+}
+.first-sec ul li:nth-child(6) {
+	margin-left: 80px;
+	
+}
+/*****************
+ Les formes
+ *****************/
+ .po {
+ 	position: absolute;
+ }
+ .forme {
+ 	border-radius: 35px;
+ 	width: 20px;
+ 	height: 20px;
+ 	background-color: white;}
+ 	.forme:hover {cursor:pointer;}
+ .fo {
+ 	width: 200px;
+ 	height: 5px;
+ 	background-color: black;
+ 	display: inline-block;
+ }
+ .cercle-b {
+ 	border: 5px solid #008CBA;
+ 	position: absolute;
+ 	top: -16px;
+ 	left: -1px;
+ }
+ .cercle-gr {
+ 	border: 5px solid #00A14C;
+ 	position: absolute;
+ 	top: -16px;
+ 	left: 180px;
+ }
+ .cercle-j {
+ 	border: 5px solid #EDDE45;
+ 	position: absolute;
+ 	top: -16px;
+ 	left: 370px;
+ }
+ .cercle-g {
+ 	border: 5px solid #19DD89;
+ 	position: absolute;
+ 	top: -16px;
+ 	left: 730px;
+ }
+ .cercle-n {
+ 	border: 5px solid #1A2B2B;
+ 	position: absolute;
+ 	top: -17px;
+ 	left: 560px;
+ }
+ .cercle-t {
+ 	border: 5px solid teal;
+ 	position: absolute;
+ 	top: -17px;
+ 	left: 590px;
+ }
+ .ligne {
+ 	border: 2px solid;
+ 	width: 60%;
+ 	height: 0px;
+ }
+ .frise {
+ 	width: 90%;
+ 	margin-left: 250px;
+ 	position: relative;
+ 	top: 0;
+ 	left: 0;
+ }
+ .frise div a img {
+ 	margin-top: 2px;
+ 	margin-left: 2px;
+ }
+ .frise div {
+ 	margin: 0;
+ 	padding: 0;
+ 	/*background-color: red;*/
+ }
+ /*.frise span:nth-child(2) {
+ 	position: relative;
+ 	left: 0px;
+ 	top: -2px;
+ }
+ .frise span:nth-child(4) {
+ 	position: relative;
+ 	left: 240px;
+ 	top: -45px;
+ }
+ .frise span:nth-child(6) {
+ 	position: relative;
+ 	left: 450px;
+ 	top: -93px;
+ }
+ .frise span:nth-child(8) {
+ 	position: relative;
+ 	left: 690px;
+ 	top: -141px;
+ }*/

@@ -9,14 +9,48 @@ les polices
 	font-family: 'NTR';
 	src: url(../fonts/.ttf);
 }
-
+html {
+	scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+	width: 10px;	
+}
+::-webkit-scrollbar-track {
+	border-radius: 10px;
+	border: 1px solid;
+	margin-left: 5px;
+	
+}
+::-webkit-scrollbar-thumb {
+	background-color: blue;
+	border-radius: 10px;
+}
 /***********************
   en tête de la page
 ***********************/
 header{
+	border: 2px solid;
 	position: relative;
 	top: 0;
 	left: 0;
+}
+header div p {
+	text-align: center;
+	font-size: 20px;
+}
+header div:nth-child(3) {
+	border: 3px solid white;
+	width: 600px;
+	margin: auto;
+	position: absolute;
+	top: 120px;
+	left: 420px;
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0,0.4);
+	color: white;
+	z-index: 2;
+	font-weight: bold;
+	border-radius: 4px;
 }
 li {
 	list-style-type: none;
@@ -25,49 +59,17 @@ li {
 	background-image: url(../img/f3.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
+	filter: blur(6px);
+	-webkit-filter: blur(6px)
 	color: white;
 	position: relative;
 	top: 0;
 	left: 0;
-	height: 200px;
-}
-.bg-img {
-	animation-name: defilement;
-	animation-duration: 20s;
-	animation-delay: 2s;
-	animation-timing-function: ;
-	animation-iteration-count: infinite;
-	animation-direction: reverse;	
-}
-@-webkit-keyframes defilement {
-	0%{
-		background-image: url(../img/f3.jpg);
-		background-size: cover;
-	}
-	50%{
-		background-image: url(../img/f2.jpg);
-		background-size: cover;
-	}
-	100%{
-		background-image: url(../img/f4.jpg);
-		background-size: cover;
-	}
+	height: 400px;
 }
 
 /*barre de navigation*/
-
-@-webkit-keyframes left {
-  from {
-    -webkit-transform: translate3d(-100%, 0, 0);
-    transform: translate3d(-100%, 0, 0);
-    visibility: visible;
-  }
-
-  to {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
-}
 nav {
 	border: 1Px solid green;
 	width: 200px;
@@ -81,7 +83,9 @@ ul {
 	margin: 0;
 	padding: 0;
 }
-.menu>span {
+.menu a>span {
+	
+	display: block;
 	width: 30px;
 	height: 2px;
 	background-color: white;
@@ -89,12 +93,20 @@ ul {
 	margin-top: 6px;
 	margin-left: 10px;
 }
-.menu:hover {
-	cursor: pointer;
+.menu a {
+	margin: 0;
+	padding: 0;
+	
 }
-/*.menu:hover+nav {
+.menu:hover {
+	/*cursor: pointer;*/
+}
+nav {
+	display: none;
+}
+.menu a:focus+nav {
 	display: block;
-}*/
+}
 .menu {
 	width: 50px;
 	height: 30px;
@@ -118,6 +130,8 @@ h1,h1+h2 {
 body {
 	margin: 0;
 	padding: 0;
+	background-color: #D9E8D7;
+	overflow-x: hidden;
 }
 
 .intro {
@@ -142,47 +156,23 @@ body {
 		font-size: 150%;
 	}
 }
-
-/*.container {
-	border: 1px solid red;
-	width: 85%;
-	margin: auto;
-}*/
-
-/*
-.scrolling-wrapper {
-  overflow-x: scroll;
-  overflow-y: hidden;
-  white-space: nowrap;}
-
-*/
-  /*.card {
-    display: inline-block;
-  }
-.scrolling-wrapper {
-  -webkit-overflow-scrolling: touch;
-}*/
-/*.scrolling-wrapper::-webkit-scrollbar 
- {
-    display: none;
-  }*/
-
-
 /*****************		
  Sections
  *****************/
  .container {
- 	overflow-x: scroll;
- 	overflow-y: hidden;
-	white-space: nowrap;
- }
+	border: 1px solid blue;
+	width: 80%;
+	height: 900px;
+	margin: 50px auto;
+	overflow: hidden;
+}
+
 /*****************		
  Première section
  *****************/
 .great-sect {
-	border: 1px solid green;
-	display: inline-block;
-	
+	width: 100%;
+	height: 100%;	
 }
 .sub-section {
 	border: 1Px solid;
@@ -296,23 +286,15 @@ body {
  	padding: 0;
  	/*background-color: red;*/
  }
- /*.frise span:nth-child(2) {
- 	position: relative;
- 	left: 0px;
- 	top: -2px;
- }
- .frise span:nth-child(4) {
- 	position: relative;
- 	left: 240px;
- 	top: -45px;
- }
- .frise span:nth-child(6) {
- 	position: relative;
- 	left: 450px;
- 	top: -93px;
- }
- .frise span:nth-child(8) {
- 	position: relative;
- 	left: 690px;
- 	top: -141px;
- }*/
+ /*************
+   footer
+     *****************/
+
+footer {
+	clear: both;
+}
+
+
+
+
+

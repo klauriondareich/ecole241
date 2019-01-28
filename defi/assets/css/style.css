@@ -8,17 +8,64 @@
 /***************************
     L'entête de la page
 ****************************/
+.banner {
+	background-image: url(../img/banner/banner3.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 
 /***************************
     Le corps de la page
 ****************************/
 body {
-	margin: 0;
 	padding: 0;
+	margin: 0;
 	font-family: 'Helvetica Neue';
-	/*background-color: blue;*/
+	background-color: green;
+}
+header {
+	 height: 150Px;
+	 
+	 /*border: 2px solid yellow;*/
+}
+nav ul li {
+	list-style-type: none;
+	display: inline-block;
+	color: white;
+	/*border: 2px solid violet;*/
+}
+nav ul  {
+	margin-top: 0;
+	padding-top: 0;
+}
+nav  {
+	position: relative;
+	 top: 0;
+	 left: 0;
+	padding: 0;
+	 /*border: 2px solid violet;*/
+}
+nav:first-of-type ul {
+	margin-left: 800px;
+	
+}
+nav:nth-of-type(2) ul {
+	margin-left: 400px;
+}
+[type="search"] {
+	position: absolute;
+	background-image: url(../img/icones/search.png);
+	background-repeat: no-repeat;
+	background-position: 132px 0px;
+	color: white;
+	right: 200px;
+	top: 50px;
 }
 
+/*.img-fond {
+	background-image: url(../img/banner/);
+}
+*/
 
 	
 /***************************

@@ -1,4 +1,15 @@
 
+
+
+@media screen and (max-width: 678px) 
+{
+	div{
+		width: 100%;
+	}
+	body{
+		background-color: blue; 
+	}
+}
 /*Polices*/
 
 @font-face {

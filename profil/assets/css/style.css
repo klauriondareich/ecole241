@@ -1,0 +1,74 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: green;
+}
+
+/*en tête de la page*/
+ul {
+	margin: 0;
+	padding: 0;
+}
+.first-info {
+	width: 80%;
+	position: relative;
+	top: 250Px;
+	left: 130px;
+	border: 1px solid red;
+}
+header {
+	background-image: url(../img/f6.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	height: 700px;
+	margin: 0;
+	padding: 0;
+	position: relative; 
+	top: 0;
+	left: 0;	
+}
+header .button>button {
+	color: white;
+	border: 0;
+	border-radius: 6px;
+	text-decoration: none;
+	padding: 17px;
+	border: 1px solid red;
+}
+header h1,p {
+	margin: 0;
+	padding-top: 10px;
+	text-align: center;
+	color: white;
+}
+header h1 {
+	margin-bottom: 30px;
+}
+nav {
+	position: absolute;
+}
+
+.button {
+	width: 50%;
+	margin-top: 30px;
+	margin-left: 400px;
+}
+.button button:nth-child(1) {
+	width: 24%;
+	background-color: #16A085;
+}
+.button button:nth-child(3) {
+	width: 32%;
+	background-color: #fff;
+	color: #353535;
+}
+.button button:nth-child(3):hover {
+	background-color: #16A085;
+	color: white;
+	cursor: pointer;
+}
+li {
+	list-style-type: none;
+}

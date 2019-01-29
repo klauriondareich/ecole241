@@ -29,14 +29,14 @@ header {
 	top: 0;
 	left: 0;	
 }
-header .button>button {
+/*header .button>button {
 	color: white;
 	border: 0;
 	border-radius: 6px;
 	text-decoration: none;
 	padding: 17px;
 	border: 1px solid red;
-}
+}*/
 header h1,p {
 	margin: 0;
 	padding-top: 10px;
@@ -51,20 +51,22 @@ nav {
 }
 
 .button {
-	width: 50%;
+	width: 15%;
+	border: 1px solid;
+	border-radius: 5px;
 	margin-top: 30px;
 	margin-left: 400px;
 }
-.button button:nth-child(1) {
+.button:nth-child(1) a {
 	width: 24%;
 	background-color: #16A085;
 }
-.button button:nth-child(3) {
+.button:nth-child(3) a {
 	width: 32%;
 	background-color: #fff;
 	color: #353535;
 }
-.button button:nth-child(3):hover {
+.button:nth-child(3):hover {
 	background-color: #16A085;
 	color: white;
 	cursor: pointer;

@@ -71,7 +71,7 @@ header h1,p {
 	margin: 0;
 	padding-top: 10px;
 	text-align: center;
-	color: white;
+	/*color: white;*/
 }
 header h1 {
 	font-family: OpenSans, sans-serif;
@@ -141,12 +141,6 @@ div.texte {
 	margin-top: 50px;
 	color: white;
 }
-/*.marg-1 {
-	margin-top: 10px;
-}
-.marg-2 {
-	margin-top: 30px;
-}*/
 .style-section {
 	margin-top: 100px;
 }
@@ -178,6 +172,9 @@ div.texte {
 	height: 450px;
 	margin: 40px auto;
 	overflow: hidden;
+	/*position: relative;
+	top: 0;
+	left: 0;*/
 }
 .my-infos {
 	padding-top: 0px;
@@ -197,6 +194,25 @@ div.texte {
 }
 .my-infos div.bloc {
 	width: 85%;
+}
+/*barre de defilement*/
+.h-bar  {
+	border-left: 2px solid #16A085;
+	width: 1px;
+	height: 300px;
+	position: absolute;
+	margin-top: 25px;
+	margin-left: 40px;
+}
+.h-bar img {
+	background-color: #16A085;
+	border-radius: 35px;
+	padding: 2px;
+	margin-left: -20px;
+	margin-bottom: 50px;
+}
+.h-bar img:nth-child(1) {
+	margin-top: 0;
 }
 /*barres de progression*/
 
@@ -280,14 +296,12 @@ hr {
 	width: 100px;
 	margin-left: 5px;
 }
-/*barre horizontale*/
 
 /*Deuxième section*/
 
 .d-subsection {
 	width: 80%;
 	margin: 40px auto;
-	color: #353535;
 }
 .d-subsection div {
 	border: 1px solid #939393;
@@ -297,13 +311,28 @@ hr {
 	margin-left: 15px;
 	background-color: white;
 	box-shadow: 0px 0px 12px #939393;
+	padding-bottom: 10px;
+	color: #353535;
+}
+.d-subsection div:nth-child(1) {margin-left: 0;}
+.d-subsection h3 {
+	text-align: center;
+	font-family: OpenSans,sans-serif;
+}
+.d-subsection p {
+	color: #666;
+	text-align: center;
+	font-size: 15px;
 }
 .d-subsection div:hover {
 	background-color: #16A085;
 	color: white;
 }
-.d-subsection div:nth-child(1) {
-	margin-left: 0;
+.d-subsection div:hover p {
+	color: white;
+}
+.d-subsection div img {
+	margin-left: 90px;
 }
 .section-2 {
 	background-color: #F5F5F5;
@@ -322,12 +351,14 @@ hr {
 	border: 1px solid;
 	text-decoration: none;
 	background-color: #16A085;
-	border-radius: 18px;
+	border-radius: 28px;
 	display: block;
-	width: 150px;
+	width: 165px;
 	text-transform: uppercase;
 	color: white;
-	padding: 15px 0 15px 50px; 
+	font-family: open;
+	font-size: 15px;
+	padding: 15px 0 15px 60px; 
 	margin: auto;
 	clear: both;
 }
@@ -381,7 +412,14 @@ div.f-subsection:nth-child(4) {
 	background-color: #16A085;
 	margin-left: 60px;
 	margin-bottom: 20px;
+	/*transition: transform .2s;*/
 }
+/*.f-subsection div:hover {
+	position: absolute;
+	border: 2px solid #16A085; 
+	transform: scale(1.8);
+	-webkit-transform: scale(1.8);
+}*/
 .f-subsection span:nth-child(2) {
 	font-size: 36px;
 	font-family: open,sans-serif;

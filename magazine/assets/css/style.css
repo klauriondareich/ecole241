@@ -11,6 +11,10 @@
 	font-family:"montserrat";
     src: url(../fonts/montserrat/Montserrat-Bold.ttf);
 }
+body {
+	margin: 0;
+	padding: 0;
+}
 
 /*en tête de la page*/
 /*barres de navigation*/
@@ -23,7 +27,10 @@
 	font-size:15px;
 	font-weight:bold;
 }     
-ul {list-style-type:none;}
+ul {
+	padding: 0;
+	margin:0;
+	list-style-type:none;}
 li {
     display:inline-block;
     margin:5px 10px 0 5px;
@@ -35,6 +42,7 @@ li {
 	font-family:'Monserrat',sans-serif;
 	text-decoration:none;}
 .logo {
+	margin-top: 60px;
 	font-family:'motion picture personal', cursive;
 	font-size:70px;
 	text-align:center;
@@ -48,7 +56,8 @@ li {
 .p1 { 
 	background-image: url(../img/fond-top.jpg);
 	background-size: cover;
-	height:650px;
+	width: 100%;
+	height:100vh;
 	background-repeat:no-repeat;
 }
 .p1 p {

@@ -182,15 +182,17 @@ div.texte {
 	border-radius: 15px;
 	padding: 5px;
 	position: absolute;
-	margin-top: -12px;
-	margin-left: 55px;
+	margin-top: -1%;
+	margin-left: 4%;
 }
 .style-section div.h-line {
 	border-top: 3px solid #16A085; 
 	width: 130px;
 	margin: 0 auto;
 }
+
 .sub-section-1 {
+	scroll-behavior: smooth;
 	border: 1px solid;
 	border-radius: 5px;
 	margin-top: 50px;
@@ -239,6 +241,10 @@ div.texte {
 .my-infos div img {
 	float: left;
 	margin-right: 20px;
+}
+.btn:hover.shine:before{
+	-webkit-animation: shine .75s;
+	animation: shine .75s;
 }
 .my-infos div.bloc {
 	width: 85%;
@@ -296,12 +302,12 @@ div.texte {
 .h-bar span:nth-child(6)  {
 	width: 120px;
 	position: absolute;
-	bottom: 115px;
+	bottom: 124px;
 	left: -35px;
 }
 .h-bar span:nth-child(8)  {
 	position: absolute;
-	bottom: 35px;
+	bottom: 28px;
 	left: -35px;
 }
 .h-bar a.elt1:hover+span.spn1 {

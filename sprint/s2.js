@@ -2,6 +2,6 @@
 
 let i = 0;
 while (i < 23) {
-  console.log(i+" OKACODE");
+  console.log(i + " OKACODE");
   i++;
 }

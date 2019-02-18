@@ -708,6 +708,41 @@ div.bloc-info:nth-child(5) .triangle {
     opacity: 1;
   }
 }
+.anim-bottom {
+  -webkit-animation: flipBottom infinite 12s ease-out;
+  -moz-animation: flipBottom infinite 12s ease-out;
+  -ms-animation: flipBottom infinite 12s ease-out;
+  -o-animation: flipBottom infinite 12s ease-out;
+  animation: flipBottom infinite 12s ease-out;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+@-webkit-keyframes flipBottom {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  70% {
+    transform: translateY(30px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@-moz-keyframes flipBottom {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  70% {
+    transform: translateY(30px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 .section-3 {
 	margin-top: 0;
 	background-color: #F5F5F5;	

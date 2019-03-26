@@ -4,7 +4,6 @@
  $name = 'laurion'; // string
  $table = array('12','14','15'); // array
  $decimal = 12.14; // float
- $none = Null; // Null
  $answer = true; // bool
  echo $number.'<br />'.$name.'<br />'.$decimal.'<br />'.$answer;
 ?>

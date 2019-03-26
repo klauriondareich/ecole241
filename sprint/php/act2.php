@@ -5,6 +5,6 @@
  $table = array('12','14','15'); // array
  $decimal = 12.14; // float
  $none = Null; // Null
- $answer = true; // true
- echo $number.'<br />'.$name.'<br />'.$table.'<br />'.$decimal.'<br />'.$none.'<br />'.$answer;
+ $answer = true; // bool
+ echo $number.'<br />'.$name.'<br />'.$decimal.'<br />'.$answer;
 ?>

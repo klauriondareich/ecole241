@@ -6,9 +6,5 @@
  $decimal = 12.14; // float
  $none = Null; // Null
  $answer = true; // true
- echo gettype $number .'<br />'; 
- echo gettype $name .'<br />';
- echo gettype $table .'<br />';
- echo gettype $decimal .'<br />';
- echo gettype $answer .'<br />';
+ echo $number.'<br />'.$name.'<br />'.$table.'<br />'.$decimal.'<br />'.$none.'<br />'.$answer;
 ?>

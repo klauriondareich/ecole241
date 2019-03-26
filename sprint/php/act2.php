@@ -5,5 +5,5 @@
  $table = array('12','14','15'); // array
  $decimal = 12.14; // float
  $answer = true; // bool
- echo $number.'<br />'.$name.'<br />'.$decimal.'<br />'.$answer;
+ echo 'int : '.$number.'<br />'.'String :'.$name.'<br />'.'Float :'.$decimal.'<br />'.'Bool :'.$answer;
 ?>

@@ -15,6 +15,7 @@ body {
 }
 
 /*en tête de la page*/
+
 ul {
 	margin: 0;
 	padding: 0;
@@ -36,28 +37,28 @@ ul {
     opacity: 1;
     visibility: visible;
   }
-}
+} 
 .first-info {
-	/*border: 2px solid white;*/
 	width: 80%;
 	position: relative;
 	top: 25%;
 	left: 10%;
+}
+.first-info p {
+	font-family: OpenSans, sans-serif;
+	font-size: 30px;
 }
 div.first-info a {
 	border-radius: 5px;
 	padding: 15px;
 	text-decoration: none;
 	display: inline-block;
-	margin-top: 38px;
 	padding-right: 30px;
 }
-div.first-info a:nth-child(3) {
+div.first-info a:nth-child(4) {
 	background-color: #16A085;
 	width: 15%;
 	color: white;
-	margin-left: 310px;
-	margin-right: 30px;
 }
 div.first-info a:hover i {
 	-webkit-animation: enterUpBounce 0.5s ease-in forwards;
@@ -65,8 +66,9 @@ div.first-info a:hover i {
   -ms-animation: enterUpBounce 0.5s ease-in forwards;
   -o-animation: enterUpBounce 0.5s ease-in forwards;
   animation: enterUpBounce 0.5s ease-in forwards;
-}
-div.first-info a:nth-child(4) {
+} 
+div.first-info a:nth-child(5) {
+	margin-top: 100px;
 	background-color: #fff;
 	color: #353535;
 	width: 15%;
@@ -76,8 +78,8 @@ div.first-info a:nth-child(4):hover {
 	color: white;
 	cursor: pointer;
 }
-header {
-	background-image: url(../img/f14.jpg);
+ header {
+	background-image: url(../img/f14.jpg); 
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 100%;
@@ -85,8 +87,7 @@ header {
 	position: relative; 
 	top: 0;
 	left: 0;
-}
-
+} 
 p {
 	font-size: 15px;
 	font-family: OpenSans, sans-serif;
@@ -94,14 +95,13 @@ p {
 }
 header h1,p {
 	margin: 0;
-	padding-top: 10px;
-	text-align: center;
+	text-align: left;
 	color: white;
 }
 header h1 {
 	font-family: OpenSans, sans-serif;
 	font-size: 50px;
-	margin-bottom: 30px;
+	font-variant: uppercase;
 }
 .button {
 	width: 15%;
@@ -120,6 +120,9 @@ li a {
 }
 li a:hover {
 	color: #16A085;
+}
+.typedtext{
+	position: absolute;
 }
 
 /* barre de navigation */
@@ -249,7 +252,9 @@ div.texte {
 .my-infos div.bloc {
 	width: 85%;
 }
+
 /*barre de defilement*/
+
 .h-bar  {
 	border-left: 2px solid #16A085;
 	width: 1px;
@@ -325,6 +330,7 @@ div.texte {
 .h-bar a.elt4:hover+span.spn4 {
 	display: block;
 }
+
 /*barres de progression*/
 
 .pro-bar {
@@ -528,14 +534,8 @@ div.f-subsection:nth-child(4) {
 	background-color: #16A085;
 	margin-left: 60px;
 	margin-bottom: 20px;
-	/*transition: transform .2s;*/
 }
-/*.f-subsection div:hover {
-	position: absolute;
-	border: 2px solid #16A085; 
-	transform: scale(1.8);
-	-webkit-transform: scale(1.8);
-}*/
+
 .f-subsection span:nth-child(2) {
 	font-size: 36px;
 	font-family: open,sans-serif;
@@ -655,7 +655,7 @@ div.bloc-info:nth-child(5) .triangle {
 	top: 20px;
 	right: 500px;
 }
-.pulse {
+/* .pulse {
 	opacity: 1 !important;
   visibility: visible !important;
   -webkit-animation: pulseSlow infinite alternate 1s ease-in-out;
@@ -678,7 +678,7 @@ div.bloc-info:nth-child(5) .triangle {
   -webkit-animation: flipTop infinite 8s ease-out;
   -moz-animation: flipTop infinite 8s ease-out;
   -ms-animation: flipTop infinite 8s ease-out;
-  -o-animation: flipTop infinite 8s ease-out;
+  -o-animation: flipTop infinite 8s ease-out; 
   animation: flipTop infinite 8s ease-out;
   opacity: 1 !important;
   visibility: visible !important;
@@ -692,8 +692,8 @@ div.bloc-info:nth-child(5) .triangle {
     -webkit-transform: translateY(0);
     opacity: 1;
   }
-}
-.anim-left {
+} */
+/* .anim-left {
   -webkit-animation: flipLeft infinite 5s ease-out;
   -moz-animation: flipLeft infinite 5s ease-out;
   -ms-animation: flipLeft infinite 5s ease-out;
@@ -711,8 +711,8 @@ div.bloc-info:nth-child(5) .triangle {
     -webkit-transform: translateX(0);
     opacity: 1;
   }
-}
-.anim-bottom {
+} */
+/* .anim-bottom {
   -webkit-animation: flipBottom infinite 12s ease-out;
   -moz-animation: flipBottom infinite 12s ease-out;
   -ms-animation: flipBottom infinite 12s ease-out;
@@ -720,8 +720,8 @@ div.bloc-info:nth-child(5) .triangle {
   animation: flipBottom infinite 12s ease-out;
   opacity: 1 !important;
   visibility: visible !important;
-}
-@-webkit-keyframes flipBottom {
+} */
+/* @-webkit-keyframes flipBottom {
   0% {
     transform: translateY(100px);
     opacity: 0;
@@ -746,7 +746,7 @@ div.bloc-info:nth-child(5) .triangle {
   100% {
     transform: translateY(0);
   }
-}
+} */
 .section-3 {
 	margin-top: 0;
 	background-color: #F5F5F5;	
@@ -860,6 +860,7 @@ address a {
 }
 
 /*les icones*/
+
 .h-bar .fa-user {
 	padding: 14px 16px;
 }
@@ -897,6 +898,7 @@ header .fa {
 }
 
 /*Newsletter*/
+
 .newsltr {
 	margin-top: 100px;
 }

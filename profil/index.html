@@ -5,31 +5,43 @@
 	  	<meta charset="UTF-8">
 	  	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	  	<link rel="stylesheet" type="text/css" href="assets/css/fonts.css">
+	  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 	</head>
   	<body>
   		<header>
+  			<img src="assets/img/icon/menu.png" onclick="openSidebar()">
 			<div class="first-info">
-				<h1 class="anim-top">K . LAURION DAREICH</h1>
-				<p>"TOUT CE QUI PEUT ETRE PENSE PEUT ETRE CONÇU".<br> Au commencement la programmation n'était qu'un simple concept qui avec le temps est devenu une forme de culture adopter par une <br>génération des passionnés ayant décellé le mystère des scripts et le pouvoir de la logique.</p>
-				<a href="#"><img src="" alt=""><i class="fa fa-rocket"></i>M'ENGAGEZ</a>
+				<h1>Bonjour !</h1>
+				<p>Je suis Dareich Laurion <br>KOUHOUINIKINA</p>
+				<p class="typedtext"></p>
+				<a href="#"><img src="" alt=""><i class="fa fa-rocket"></i>MON CV</a>
 				<a href="#"><img src="" alt=""><i class="fa fa-briefcase"></i>MES PROJETS</a>
-			</div>
-			<nav>
+			</div> 
+			<nav id="sidebar">
 				<ul>
-					<li><a href=""><img src="" alt="">K Laurion D</a></li>
-					<li><a href=""><img src="" alt="">bienvenue</a></li>
-					<li><a href=""><img src="" alt="">services</a></li>
-					<li><a href=""><img src="" alt="">réalisations</a></li>
-					<li><a href=""><img src="" alt="">education</a></li>
-					<li><a href=""><img src="" alt="">temoignages</a></li>
-					<li><a href=""><img src="" alt="">blog</a></li>
-					<li><a href=""><img src="" alt="">contact</a></li>
+					<img src="assets/img/icon/cancel.png" onclick="closeSidebar()">
+					<li><a href=""><img src="assets/img/icon/okacode.png" alt=""></a></li>
+					<li><a href="#AP"><img src="" alt="">A PROPOS</a></li>
+					<li><a href="#SV"><img src="" alt="">SERVICES</a></li>
+					<li><a href="#RE"><img src="" alt="">REALISATIONS</a></li>
+					<li><a href="#EDU"><img src="" alt="">EDUCATION</a></li>
+					<li><a href="#TEM"><img src="" alt="">TEMOIGNAGES</a></li>
+					<li><a href="#CT"><img src="" alt="">CONTACT</a></li>
 				</ul>
-				<div>
-					<img src="" alt="">
-					<img src="" alt="">
-					<img src="" alt="">
-					<img src="" alt="">
+				<div class="social-network">
+					<div>
+						<a href="www.facebook.com">
+						<img src="assets/img/icon/facebook.png" alt="facebook" title="facebook"></a>
+					</div>
+					<div>
+						<a href="www.linkedin.com">
+						<img src="assets/img/icon/linkedin.png" alt="linkedin" title="linkedin"></a>
+					</div>
+					<div>
+						<a href="www.whatsapp.com">
+						<img src="assets/img/icon/whatsapp.png" alt="whatsapp" title="whatsapp"></a>
+					</div>
 				</div>
 			</nav>
 		</header>
@@ -37,18 +49,19 @@
 
 		<!-- Première section -->
 
-		<section class="style-section">
+		<section class="style-section" id="AP">
 			<h2>a propos</h2> 
 			<div class="h-line">
-				<i class="fa fa-rocket anim-left"></i>
+				<i class="fa fa-rocket"></i>
 			</div>
-			<p class="prgh">Connaître tout sur moi : mon profil, mes valeurs, ma vision, les différentes compétences que j'ai pu acquérir tout au long de ma carrière d'informaticien.</p>
+			<p class="prgh">Tout Connaître sur moi : mon profil, mes valeurs, les outils que j'utilise, les différentes compétences que je possède.</p>
 
 			<!-- sous-section info-personnel -->
 			
 			<section class="great-section">
 				<div class="sub-section-1">
-					<!-- barre de defilement -->
+
+					<!-- barre navigation defilement -->
 
 					<div class="h-bar">
 						<a href="#encre1" class="elt1"><i class="fa fa-user" id="active"></i></a>
@@ -57,8 +70,8 @@
 						<span class="spn2" >competences</span>
 						<a href="#encre3" class="elt3" ><i class="fa fa-question"></i></a>
 						<span class="spn3" >pourquoi moi?</span>
-						<a href="#encre4" class="elt4" ><i class="fa fa-graduation-cap"></i></a>
-						<span class="spn4">ma vision</span>
+						<a href="#encre4" class="elt4" ><i class="fas fa-tools"></i></i></a>
+						<span class="spn4">mes outils</span>
 					</div>
 
 					<!-- fin -->
@@ -66,15 +79,15 @@
 						<h2 id="encre5">qui suis-je ?</h2> <hr>
 						<div class="bloc">
 							<img src="assets/img/photo3.jpg" width="220" height="320" alt="">
-							<p>Je suis KOUHOUINIKINA Laurion Dareich. j'ai 22 ans et je suis apprenant à l'école 241 dans le référentiel de developpeurs web et Mobile. Je fais partie de la prémière promotion des développeurs de l'école 241 surnommée " OKACODE " qui signifie suivons tous le chemin du code.</p>
-							<ul class="icon-infos" >
-								<li><a href=""><i class="fa fa-facebook-f"></i></a></li>
-								<li><a href=""><i class="fa fa-twitter "></i></a></li>
-								<li><a href=""><i class="fa fa-linkedin "></i></a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="my-infos marg" id="encre2">
+							<div class="about">
+									<p>Je développe des applications web et sites internet. <br>
+								Aussi j'utilise des technologies web pour développer des applications mobiles. <br>
+								cross-plateform (multi plateformes). Au delà de toutes les compétences techniques dont je possède, j'ai' appris par le biais du Leadership, Developpement Personnel et Management des équipes à travailler en équipe ou à collaborer avec les autres.Je possède donc
+								une forte capacité d'intégration ou d'adaption dans différents environnements</p>			
+							</div>
+							</div>
+					</div>		
+					<div class="my-infos" id="encre2">
 						<h2>compétences</h2> <hr>
 
 						<!-- barre de progression -->
@@ -83,48 +96,71 @@
 							<div class="texte marg-1">HTML</div>
 							<div class="progress marg-1">
 								<div class="co-space-1"></div>
-								<div class="progress-co anim-left">90%</div>
+								<div class="progress-co"></div>
 							</div>
+
 							<div class="marg-2 texte">CSS</div>
 							<div class="progress">
 								<div class="co-space-2"></div>
-								<div class="progress-co anim-left"">70%</div>
+								<div class="progress-co"></div>
+							</div>
+							<div class="marg-2 texte">UML</div>
+							<div class="progress">
+								<div class="co-space-3"></div>
+								<div class="progress-co"></div>
 							</div>
 						</div>
 						<div class="pro-bar">
 							<div class="texte marg-1">JAVASCRIPT</div>
 							<div class="progress">
-								<div class="co-space-3"></div>
-								<div class="progress-co anim-left"">40%</div>
-							</div>
-							<div class="marg-2 texte">GIT/GITHUB</div>
-							<div class="progress">
 								<div class="co-space-4"></div>
-								<div class="progress-co anim-left"">55%</div>
+								<div class="progress-co"></div>
+							</div>
+							<div class="marg-2 texte">REACT NATIVE</div>
+							<div class="progress">
+								<div class="co-space-5"></div>
+								<div class="progress-co"></div>
+							</div>
+							<div class="marg-2 texte">WORDPRESS</div>
+							<div class="progress">
+								<div class="co-space-6"></div>
+								<div class="progress-co"></div>
 							</div>
 						</div>
 					</div>
 					<div class="my-infos" id="encre3">
-						<h2>Pourquoi moi ?</h2> <hr>
-						<p>Au delà de toutes les compétences techniques que je possède, j'ai' appris a être leader, à travailler en équipe <br> à collaborer avec les autres mais aussi à travailler avec agilité.La satifaction du client est un point d'honneur<br> pour moi et grâce au méthodes agiles le client peut à tout moment interagir avec moi pour mieux adapter le produit a son besoin.</p>
-						<p>Notons que je m'adapte à toutes éventualités ou imprévus.A l'école 241 j'ai appris à apprendre et mon honneur dépend <br>de mon abilité à livrer  les produits au delai convenu.</p>
+						<h2>pourquoi moi ?</h2> <hr>
+						<p> Je travaille avec agilité ce qui me permet d e m'adapter à tout éventualité<br> 
+							Et comme méthode de gestion de projet j'utilise la méthode SCRUM.<br>En ce qui est  
+							de parler  en public j'ai la capacité de présenter un projet, <br>de transmettre la
+							connaissance ou encore de parler d'une expérience.<br>Tout cela parce que j'ai appris
+							à apprendre de moi même, <br>à aller chercher l'information.
+						</p>
 					</div>
 					<div class="my-infos" id="encre4"> 
-						<h2>Ma Vision</h2>
+						<h2>Les Outils de travail</h2>
 						<hr>
-						<p>J'ai toujours vu la programmation comme l'endroit idéal pour ouvrir son esprit de créativité, montrer son génie. <br>De la même manière que ceux qui m'ont précédé (les grands programmeurs) j'ai embrassé cette vision de laisser <br>mes marques dans ce domaine.</p>
-						<p>La création d'un algorithme résolvant un problème mondial s'aurait apaiser ce désir de laisser aux autres <br> une solution pérenne.Je suis encore loin du resultat que j'attends de moi mais je ne doute de rien car <br>"je suis le maître de mon destin, le capitaine de mon âme".</p>
+						<p class="tools">
+							<img src="assets/img/icon/trello.png" alt="trello">
+							<span>Trello</span>
+							<img src="assets/img/icon/drive.png" alt="google drive">
+							<span>Drive</span>
+							<img src="assets/img/icon/slack.png" alt="slack">
+							<span>Slack</span>
+							<img src="assets/img/icon/github.png" alt="github">
+							<span>Github</span>
+						</p>
 					</div>
 				</div>
 			</section>
 		</section>
 
-		<!-- Deuxième section -->
+		<!-- section mes services -->
 
-		<section class="style-section section-2">
+		<section class="style-section section-2" id="SV">
 			<h2>mes services</h2>
 			<div class="h-line">
-				<i class="fa fa-rocket anim-left"></i>
+				<i class="fa fa-rocket"></i>
 			</div>
 			<p class="prgh">Autres types de compétences.</p> 
 			<div class="d-subsection">
@@ -134,17 +170,17 @@
 					<p>Developpement des sites et applications web 	avec le langage PHP</p>
 				</div>
 				<div>
-					<i class="fa fa-html5"></i>
+					<i class="fab fa-html5"></i>
 					<h3>Intégration Web</h3>
 					<p>Developpement d'un site issue d'une maquette filaire ou graphique.</p>
 				</div>
 				<div>
-					<i class="fa fa-css3"></i>
+					<i class="fab fa-css3"></i>
 					<h3>Responsive Design</h3>
 					<p>Possibilité d'adapter votre site ou application à plusieurs différentes types d'écrans</p>
 				</div>
 				<div>
-					<i class="fa fa-mobile"></i>
+					<i class="fas fa-mobile-alt"></i>
 					<h3>Developpement Mobile</h3>
 					<p>Developpement des applications mobile avec les technologies front-end</p>
 				</div>
@@ -153,12 +189,12 @@
 
 		<!-- fin -->
 
-		<!-- troisième section -->
+		<!-- section les réalisations -->
 
-		<section class="style-section">
+		<section class="style-section" id="RE">
 			<h2>Réalisations</h2>
 			<div class="h-line">
-				<i class="fa fa-rocket anim-left"></i>
+				<i class="fa fa-rocket"></i>
 			</div>
 			<p class="prgh">Les différentes réalisations éffectuées.</p>
 			<div class="img-project">
@@ -198,12 +234,12 @@
 
 		<!--fin-->
 
-		<!--cinquième section -->
+		<!--section éducation-->
 
-		<section class="style-section section-3">
+		<section class="style-section section-3" id="EDU">
 			<h2>education</h2>
 			<div class="h-line">
-				<i class="fa fa-rocket anim-left"></i>
+				<i class="fa fa-rocket "></i>
 			</div>
 			<p class="prgh">Mon parcours scolaires et diplômes acquis.</p>
 			<div class="conteneur">
@@ -213,22 +249,22 @@
 					<span>2018</span>
 					<span>Nov 2018</span>
 				</div>
-				<div class="bloc-info anim-top">
+				<div class="bloc-info">
 					<h2>Baccalauréat</h2><hr>
 					<p>Obtention d'un baccalauréat scientifique de série "c".</p>
 					<div class="triangle"></div>
 				</div>
-				<div class="bloc-info anim-top">
+				<div class="bloc-info">
 					<h2>FSE</h2><hr>
 					<p>Deuxième Année à la faculté de sciences économiques (FSE)/ Université Marien Ngouabi/Brazzaville. Option : Economie Quantitative</p>
 					<div class="triangle"></div>
 				</div class="bloc-info">
-				<div class="bloc-info anim-bottom">
+				<div class="bloc-info">
 					<h2>IAI</h2><hr>
 					<p>Première Année à l'Institut Africain D'informatique (IAI)</p>
 					<div class="triangle"></div>
 				</div>
-				<div class="bloc-info anim-bottom">
+				<div class="bloc-info">
 					<h2>Ecole241</h2><hr>
 					<p>Apprenant à l'école241/Developpement Web et Mobile</p>
 					<div class="triangle"></div>
@@ -319,7 +355,7 @@
 
 		<!--neuvième section-->
 
-		<section class="style-section">
+		<section class="style-section" id="CT">
 			<h2>me contacter</h2>
 			<div class="h-line">
 				<i class="fa fa-rocket anim-left"></i>
@@ -377,12 +413,10 @@
 
 		<footer>
 			<p>&copy; Copyright 2019 Laurion ecole241</p>
-			<ul class="social" >
-				<li><a href=""><i class="fa fa-facebook-f"></i></a></li>
-				<li><a href=""><i class="fa fa-twitter i-social"></i></a></li>
-				<li><a href=""><i class="fa fa-linkedin i-social"></i></a></li>
-				<li><a href=""><i class="fa fa-pinterest-p i-social"></i></a></li>
-			</ul>
 		</footer>
+		<script src="assets/js/jquery.superslides.js"></script>
+		<script src="assets/js/file.js"></script>
+		<script src="assets/js/typed.min.js"></script>
+		<script src="assets/js/script.js"></script>
  	</body>	
  </html>  

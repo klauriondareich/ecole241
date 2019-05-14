@@ -1,7 +1,7 @@
 /* openSidebar function*/
 
 function openSidebar(){
-	document.getElementById("sidebar").style.width = "300px";
+	document.getElementById("sidebar").style.width = "400px";
 }
 
 /* closeSibebar*/

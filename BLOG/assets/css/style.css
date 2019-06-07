@@ -1,0 +1,30 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+header {padding: O;}
+nav li {
+  display: inline-block;
+  padding: 10px;
+  margin-left: 4px;
+}
+li a {text-decoration: none;}
+nav ul{
+  padding: 0;
+  margin: 0;
+  margin-left: 500px;
+}
+.container{
+  width: 60%;
+  margin: auto;
+}
+
+/* right section  */
+
+aside {
+  border: 1px solid;
+  width: 25%;
+  float: right;
+}
+.last-articles {display: block;}
+.last-articles span {display: block;}

@@ -3,9 +3,7 @@
 <title>Mon Blog</title>
 <meta charset="UTF-8">
 <meta name="description" content="le blog de laurion">
-
-</html>
-
+<link rel="stylesheet" href="assets/css/style.css">
 <body>
 
   <!-- beginning of the header of the page -->
@@ -13,10 +11,10 @@
   <header>
     <nav>
       <ul>
-        <li>HOME</li>
-        <li>ABOUT</li>
-        <li>CATEGORIES</li>
-        <li>MY BERMUDES-LA BOUTIQUE</li>
+        <li><a href="">HOME</a></li>
+        <li><a href="">ABOUT</a></li>
+        <li><a href="">CATEGORIES</a></li>
+        <li><a href="">MY BERMUDES-LA BOUTIQUE</a></li>
       </ul>
     </nav>
   </header>
@@ -25,14 +23,14 @@
 
   <!-- body of the document-->
 
-  <section>
+  <section class="container">
 
-    <!-- left section -->
+    <!-- right section -->
     <aside>
-      <div>
+      <div class="right-section-para1">
         <img src="assets/img/logo.png" alt="logo My BERMUDES">
-        <p>Bienvenue sur MY BERMUDES !</p>
-        <p>Je partage sur ce blog mes coups de coeur et découvertes mode, beauté, lifestyle ainsi que mes carnets de voyages.</p>
+        <p>Bienvenue sur <span>MY BERMUDES !</span></p>
+        <p>Je partage sur ce blog mes coups de coeur et <br> découvertes mode, beauté, lifestyle ainsi que <br>mes carnets de voyages.</p>
         <span>FOLLOW ME</span>
         <div>
           <img src="" alt="facebook">
@@ -41,12 +39,16 @@
           <img src="" alt="">
         </div>
       </div>
-      <div>
-        <span>DERNIERS ARTICLES</span>
-        <img src="assets/img/2.png" alt="des mariés main dans la main">
-        <span>UN MARIAGE CIVIL À PARIS</span><span>July 28, 2018</span>
-        <img src="assets/img/4.png" alt="une femme assise sur un fauteuil">
-        <span>SE METTRE À LA MÉDITATION</span><span>October 22, 2017</span>
+      <div class="right-section-para2">
+        <span class="last-articles">DERNIERS ARTICLES</span>
+        <div>
+          <img src="assets/img/2.png" width="80" height="50" alt="des mariés main dans la main">
+          <span>UN MARIAGE CIVIL À PARIS</span><br><span>July 28, 2018</span>
+        </div>
+        <div>
+          <img src="assets/img/4.png" width="80" height="50" alt="une femme assise sur un fauteuil">
+          <span>SE METTRE À LA MÉDITATION</span><br><span>October 22, 2017</span>
+        </div>
       </div>
       <div>
         <span>ARCHIVES</span>
@@ -56,7 +58,8 @@
           <li>September 2017 (1)</li>
           <li>August 2017 (3)</li>
           <li>July 2017 (3)</li>
-          <li>June 2017 (5)</</li> </ul>
+          <li>June 2017 (5)</</li>
+       </ul>
       </div>
     </aside>
     <!-- end -->
@@ -69,27 +72,27 @@
         <article>
           <span>LIFESTYLE</span>
           <h1>UN MARIAGE CIVIL À PARIS</h1>
-          <span>July 28, 2018</span>
-          <img src="assets/img/2.png" alt="des mariés main dans la main">
-          <p>Voilà qui explique un peu ma relative absence de ces derniers mois... Au delà des bijoux My Bermudes, mon temps libre a été concentré sur l'organisation de notre grand événement de l'année 2018 : notre mariage ! Alors que nou...
+          <span>July 28, 2018</span> <br>
+          <img src="assets/img/2.png"  width="600px" alt="des mariés main dans la main">
+          <p>Voilà qui explique un peu ma relative absence de ces derniers mois... Au delà des bijoux My Bermudes,<br> mon temps libre a été concentré sur l'organisation de notre grand événement de l'année 2018 : notre <br> mariage ! Alors que nous...
           </p>
           <span>LIRE LA SUITE</span>
         </article>
         <article>
           <span>LIFESTYLE</span>
           <h1>SE METTRE À LA MÉDITATION</h1>
-          <span>October 22, 2017</span>
-          <img src="assets/img/4.png" alt="une femme assise sur un fauteuil">
-          <p>Hello ! Je suis très heureuse de vous retrouver aujourd'hui sur My Bermudes, pour un petit article dédié à une nouvelle habitude que j'ai adoptée à la rentrée : la méditation. Si les bienfaits de cette pratique ne sont plus à...
+          <span>October 22, 2017</span> <br>
+          <img src="assets/img/4.png" width="600px" alt="une femme assise sur un fauteuil">
+          <p>Hello ! Je suis très heureuse de vous retrouver aujourd'hui sur My Bermudes, pour un petit article dédié à <br> une nouvelle habitude que j'ai adoptée à la rentrée : la méditation. Si les bienfaits de cette pratique ne <br> sont plus à...
           </p>
           <span>LIRE LA SUITE</span>
         </article>
         <article>
           <span>LIFESTYLE</span>
           <h1>MY BERMUDES : LES BIJOUX !</h1>
-          <span>September 19, 2017</span>
-          <img src="assets/img/5.png" alt="des bracelets">
-          <p>Hello ! Me voici de retour avec beaucoup de contenu à partager avec vous en cette rentrée bien chargée, et je commence avec un petit projet qui me tient particulièrement à coeur. Si vous me suivez depuis quelques temps et l'a...
+          <span>September 19, 2017</span> <br>
+          <img src="assets/img/5.png" width="600px" alt="des bracelets">
+          <p>Hello ! Me voici de retour avec beaucoup de contenu à partager avec vous en cette rentrée bien chargée, <br>et je commence avec un petit projet qui me tient particulièrement à coeur. Si vous me suivez depuis <br> quelques temps et l'a...
           </p>
           <span>LIRE LA SUITE</span>
         </article>

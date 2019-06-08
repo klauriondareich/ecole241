@@ -1,6 +1,11 @@
+@font-face{
+  src: url("assets/fonts/ProductSans-Thin.ttf");
+  font-family: 'ProductSans';
+}
 body{
   margin: 0;
   padding: 0;
+
 }
 header {padding: O;}
 nav li {
@@ -15,7 +20,7 @@ nav ul{
   margin-left: 500px;
 }
 .container{
-  width: 60%;
+  width: 80%;
   margin: auto;
 }
 
@@ -23,8 +28,15 @@ nav ul{
 
 aside {
   border: 1px solid;
-  width: 25%;
+  width: 35%;
   float: right;
+}
+.right-section-para1 {
+  text-align: center;
+}
+.right-section-para1 p:nth-child(2) span{
+  font-weight: bold;
 }
 .last-articles {display: block;}
 .last-articles span {display: block;}
+.right-section-para2 div img {float: left;}

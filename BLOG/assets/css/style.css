@@ -27,16 +27,88 @@ nav ul{
 /* right section  */
 
 aside {
-  border: 1px solid;
   width: 35%;
   float: right;
 }
-.right-section-para1 {
-  text-align: center;
+#logo{
+  margin-left: 60px;
+  margin-top: 45px;
 }
-.right-section-para1 p:nth-child(2) span{
+#social-networks{
+  margin-left: 20px;
+}
+.right-section-bloc1,
+.right-section-bloc2,
+.right-section-bloc3 {
+border-bottom: 3px solid grey;
+}
+.right-section-bloc1 span.follow-me {
+  margin-left: 80px;
+}
+.right-section-bloc1 p:nth-child(2) span{
   font-weight: bold;
 }
-.last-articles {display: block;}
-.last-articles span {display: block;}
-.right-section-para2 div img {float: left;}
+.right-section-bloc1 p:nth-child(2) {
+  margin-left: 30px;
+}
+.right-section-bloc2 {
+  border-bottom: 3px solid grey;
+}
+.right-section-bloc2 div:nth-child(2) {
+position: relative;
+top: 0;
+left: 0;
+}
+.right-section-bloc2 div:nth-child(3) {
+position: relative;
+top: 0;
+left: 0;
+}
+.right-section-bloc2 div:nth-child(2) span:first-of-type {
+position: absolute;
+top: 2px;
+right: 70px;
+}
+.right-section-bloc2 div:nth-child(2) small{
+position: absolute;
+bottom: 3px;
+left: 95px;
+}
+.right-section-bloc2 div:nth-child(3) span:first-of-type {
+  position: absolute;
+  top: 2px;
+  right: 50px;
+}
+.right-section-bloc2 div:nth-child(3) small{
+position: absolute;
+bottom: 3px;
+left: 95px;
+}
+.right-section-bloc2 div:nth-child(3) {margin-top: 20px;}
+.right-section-bloc2+div ul li{list-style-type: none;}
+.right-section-bloc3 {
+  border-bottom: 3px solid grey;
+}
+.right-section-bloc3 ul{
+  margin-top: 10px;
+  padding: 0;
+}
+.right-section-bloc3 ul li{
+  line-height: 23px;
+}
+.right-section-bloc3 span {
+  margin-bottom: 10px;
+  padding-top: 35px;
+  display: block;
+}
+.bold-text{font-weight: bold;}
+.image-fond {
+  background-image: url("../img/1.png");
+  background-size: cover;
+  height: 300px;
+}
+.last-articles {
+  display: block;
+  margin: 10px 0;
+  padding-top: 15px;
+}
